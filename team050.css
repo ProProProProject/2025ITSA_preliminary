@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #e9efff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+}
+
+h1 {
+    margin: 8px 0px 15px 0px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.info1, .info2, .info3 {
+    color: #808794;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px rgba(128, 128, 128, 0.616);
+    background: #ffffff;
+    padding: 10px;
+}
+
+select {
+    border: none;
+    padding-right: 5px;
+}
+
+.info4 {
+    border-radius: 10px;
+    background-color: #a755f7;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+button {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+}
+
+.w_blue {
+    color: blue;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#less {
+    color: #17a05d;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.introduction {
+    color: #808794;
+    font-size: 12px;
+    text-align: center;
+    margin: 20px;
+}
+
+.introduction p {
+    margin: 0px;
+}
+
+.view {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border: 2px solid #aaa;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    box-shadow: 0px 2px 2px rgba(128, 128, 128, 0.616);
+    background: #ffffff;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.tower {
+    position: relative;
+    width: 15px;
+    height: 250px;
+    background: #95420e;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.tower-con {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+.label {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.bar {
+    content: "";
+    position: absolute;
+    top: 20px;
+    width: 90%;
+    height: 15px;
+    background: #95420e;
+    border-radius: 5px;
+}
+
+.disk {
+    /* position: relative; */
+    height: 17px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    cursor: grab;
+    transition: all 0.3s;
+}
+
+.disk1 { width: 50px; background: #ff4d4d; }
+.disk2 { width: 80px; background: #ffa64d; }
+.disk3 { width: 110px; background: #ffff4d; }
+.disk4 { width: 140px; background: #4dff4d; }
+.disk5 { width: 170px; background: #4d4dff; }
