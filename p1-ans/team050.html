@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="team050.css">
+</head>
+<body>
+    <div class="container">
+        <h1>河內塔遊戲</h1>
+
+        <div class="info">
+            <div class="info1">
+                <label for="number">圓盤數量:</label>
+                <select name="number" class="w_blue" id="disk_num" onchange="select()">
+                    <option value="" selected></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+            <div class="info2">
+                移動次數: <span id="count" class="w_blue">0</span>
+            </div>
+
+            <div class="info3">
+                最少步數: <span id="less">0</span>
+            </div>
+
+            <div class="info4">
+                <button onclick="restart()">重新開始</button>
+            </div>
+        </div>
+
+        <div class="introduction">
+            <p>目標：將所有圓盤移動到右邊的柱子上</p>
+            <p>規則：一次只能移動一個圓盤，且不能將大圓盤放到小圓盤上</p>
+        </div>
+
+        <div class="view">
+            <div class="bar"></div>
+            <div class="tower-con">
+                <span class="label">A</span>
+                <div class="tower" id="towerA"></div>
+            </div>
+            <div class="tower-con">
+                <span class="label">B</span>
+                <div class="tower" id="towerB"></div>
+            </div>
+            <div class="tower-con">
+                <span class="label">C</span>
+                <div class="tower" id="towerC"></div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="team050.js"></script>
+</body>
+</html>
